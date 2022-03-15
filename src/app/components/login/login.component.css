@@ -1,0 +1,51 @@
+.form-login{
+   background-color: rgba(11, 14, 17, 0.555);
+   height: auto;
+   border: 2px solid rgb(255, 238, 184) ;
+   border-radius: 8% 8% 8% 8%;
+}
+
+.title-1{
+  font-family: scott-room;
+  font-size: 3rem;
+  color: rgb(185, 158, 8);
+}
+
+
+.item{
+   text-align: left;
+}
+
+.item label{
+   margin-left: 12%;
+   color : rgb(255, 234, 164) !important; 
+}
+
+.item input{
+   font-size: 0.8rem;
+   height: auto;
+   background-color: rgb(41, 40, 18);
+   color: black;
+}
+
+button{
+   background-color: rgb(88, 88, 26);
+}
+
+.form-login {
+   animation-duration: 3s;
+   animation-name: slidein;
+ }
+ 
+ @keyframes slidein {
+   from {
+     margin-left: 100%;
+     width: 100%
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+
